@@ -1,5 +1,6 @@
 
 import {Card,Box,Typography} from "@mui/material";
+import Fab from '@mui/material/Fab';
 
 function App() {
   return (
@@ -19,54 +20,84 @@ function App() {
       </Box >
       <Box sx={{display:{xs:'row',sm:'flex'},overflowY:'auto',alignItems:'center',justifyContent:'center',backgroundColor:'#F1FAEE',m:5,p:2,borderRadius:'12px',gap:10,boxShadow:'10px 14px 1px rgba(0,0,0)'}}>
           <Box sx={{
+            display:'flex',
+            flexDirection:'row',
             width:'230px',
             height:'220px',
             borderRadius:'22px',
+            alignItems:'center',
             backgroundColor:'#748CAB',
+            justifyContent:'center',
             m:{xs:3,sm:0},
             p:{xs:3,sm:0}
           }}>
-
-          </Box>
-          <Box sx={{
-            width:'230px',
-            height:'220px',
-            borderRadius:'22px',
-            backgroundColor:'#748CAB',
-            m:{xs:3,sm:0},
-            p:{xs:3,sm:0}
-          }}>
-
-          </Box>
-          <Box sx={{
-            width:'230px',
-            height:'220px',
-            borderRadius:'22px',
-            backgroundColor:'#748CAB',
-            m:{xs:3,sm:0},
-            p:{xs:3,sm:0}
-          }}>
-
-          </Box>
-          <Box sx={{
-            width:'230px',
-            height:'220px',
-            borderRadius:'22px',
-            backgroundColor:'#748CAB',
-            m:{xs:3,sm:0},
-            p:{xs:3,sm:0}
-          }}>
+            <Fab sx={{width:'100px',height:'100px'}}>
               
+            </Fab>
           </Box>
           <Box sx={{
+            display:'flex',
+            flexDirection:'row',
             width:'230px',
             height:'220px',
             borderRadius:'22px',
+            alignItems:'center',
             backgroundColor:'#748CAB',
+            justifyContent:'center',
             m:{xs:3,sm:0},
             p:{xs:3,sm:0}
           }}>
-            
+            <Fab sx={{width:'100px',height:'100px'}}>
+              
+            </Fab>
+          </Box>
+          <Box sx={{
+            display:'flex',
+            flexDirection:'row',
+            width:'230px',
+            height:'220px',
+            borderRadius:'22px',
+            alignItems:'center',
+            backgroundColor:'#748CAB',
+            justifyContent:'center',
+            m:{xs:3,sm:0},
+            p:{xs:3,sm:0}
+          }}>
+            <Fab sx={{width:'100px',height:'100px'}}>
+              
+            </Fab>
+          </Box>
+          <Box sx={{
+            display:'flex',
+            flexDirection:'row',
+            width:'230px',
+            height:'220px',
+            borderRadius:'22px',
+            alignItems:'center',
+            backgroundColor:'#748CAB',
+            justifyContent:'center',
+            m:{xs:3,sm:0},
+            p:{xs:3,sm:0}
+          }}>
+            <Fab sx={{width:'100px',height:'100px'}}>
+              
+            </Fab>
+          </Box>
+          <Box sx={{
+            display:'flex',
+            flexDirection:'row',
+            width:'230px',
+            height:'220px',
+            borderRadius:'22px',
+            alignItems:'center',
+            backgroundColor:'#748CAB',
+            justifyContent:'center',
+            m:{xs:3,sm:0},
+            p:{xs:3,sm:0}
+          }}>
+            <Fab sx={{width:'100px',height:'100px'}}>
+              
+            </Fab>
           </Box>
       </Box>
     </Card>
