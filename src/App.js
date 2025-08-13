@@ -18,7 +18,7 @@ function App() {
       backgroundColor: '#1C1F47',
       overflow:'auto',
     }}>
-      <Box sx={{display:'row',flexDirection:'column',alignItems:'center',justifyContent:'center',p:10,}}>
+      <Box sx={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',p:10,}}>
         <Box>
           <Typography sx={{textAlign:'center',fontSize:{xs:55,sm:75},fontFamily:'Monoton',color:'#fff'}}>Mahdi</Typography>
         </Box>
@@ -26,10 +26,10 @@ function App() {
           <Typography sx={{textAlign:'center',fontSize:{xs:55,sm:75},fontFamily:'Monoton',color:'#fff'}}>Ahmadi</Typography>
         </Box>
       </Box >
-      <Box sx={{display:'flex',flexDirection:{xs:'column',sm:'row'},overflowY:'auto',alignItems:'center',justifyContent:'center',backgroundColor:'#F1FAEE',m:5,p:2,borderRadius:'12px',gap:10,boxShadow:'10px 14px 1px rgba(0,0,0)'}}>
+      <Box sx={{display:'flex',flexDirection:{xs:'column',sm:'column',lg:'row'},overflowY:'auto',alignItems:'center',justifyContent:'center',backgroundColor:'#F1FAEE',m:5,p:2,borderRadius:'12px',gap:10,boxShadow:'10px 14px 1px rgba(0,0,0)'}}>
           <Box sx={{
             display:'flex',
-            flexDirection:{xs:'column',sm:'column'},
+            flexDirection:'column',
             minWidth:'130',
             minHeight:'120',
             width:'230px',
