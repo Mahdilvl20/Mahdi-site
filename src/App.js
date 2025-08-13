@@ -2,6 +2,13 @@
 import {Card,Box,Typography} from "@mui/material";
 import Fab from '@mui/material/Fab';
 
+
+/// import icon
+import reactIcon from './assets/icon/reactIcon.svg';
+import GitIcon from './assets/icon/GitIcon.png';
+
+
+
 function App() {
   return (
     <Card sx={{
@@ -31,7 +38,7 @@ function App() {
             m:{xs:3,sm:0},
             p:{xs:3,sm:0}
           }}>
-            <Fab sx={{width:'100px',height:'100px'}}>
+            <Fab sx={{width:'100px',height:'100px',borderRadius:'50%',backgroundImage:`url(${reactIcon})`,backgroundSize:'cover',backgroundPosition:'center',backgroundRepeat:'no-repeat',overflow:'none'}}>
               
             </Fab>
           </Box>
@@ -47,7 +54,7 @@ function App() {
             m:{xs:3,sm:0},
             p:{xs:3,sm:0}
           }}>
-            <Fab sx={{width:'100px',height:'100px'}}>
+            <Fab sx={{width:'100px',height:'100px',borderRadius:'50%',backgroundImage:`url(${GitIcon})`,backgroundSize:'cover',backgroundPosition:'center',backgroundRepeat:'no-repeat',overflow:'none'}}>
               
             </Fab>
           </Box>
