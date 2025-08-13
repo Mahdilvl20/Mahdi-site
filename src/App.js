@@ -16,6 +16,7 @@ function App() {
       height: '100vh',
       borderRadius: '0',
       backgroundColor: '#1C1F47',
+      overflow:'auto',
     }}>
       <Box sx={{display:'row',alignItems:'center',justifyContent:'center',p:10,}}>
         <Box>
