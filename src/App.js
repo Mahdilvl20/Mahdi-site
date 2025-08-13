@@ -26,7 +26,25 @@ function App() {
           <Typography sx={{textAlign:'center',fontSize:{xs:55,sm:75},fontFamily:'Monoton',color:'#fff'}}>Ahmadi</Typography>
         </Box>
       </Box >
-      <Box sx={{display:'flex',flexDirection:{xs:'column',sm:'column',lg:'row'},overflowY:'auto',alignItems:'center',justifyContent:'center',backgroundColor:'#F1FAEE',m:5,p:2,borderRadius:'12px',gap:10,boxShadow:'10px 14px 1px rgba(0,0,0)'}}>
+      <Box sx={{
+        display:'flex',
+        flexDirection:{xs:'column',sm:'column',lg:'row'},
+        overflowY:'hidden',
+        alignItems:'center',
+        justifyContent:'center',
+        backgroundColor:'#F1FAEE',
+        m:5,
+        p:2,
+        borderRadius:'12px',
+        gap:10,
+        boxShadow:'10px 14px 1px rgba(0,0,0)',
+        transition: 'background-color 0.4s ease, box-shadow 0.4s ease',
+        ":hover":{
+          
+          backgroundColor:'#626366',
+          boxShadow:'0px 0px 0px rgba(0,0,0),0px 0px 0px rgba(0,0,0),0px 0px 300px rgba(0,0,0)'
+        }
+        }}>
           <Box sx={{
             display:'flex',
             flexDirection:'column',
