@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/Mahdi-site/static/css/main.e94969ff.css",
-    "main.js": "/Mahdi-site/static/js/main.41c65c8e.js",
+    "main.js": "/Mahdi-site/static/js/main.076f8c2a.js",
+    "static/media/LOGO.png": "/Mahdi-site/static/media/LOGO.0ece10479ad6344b5759.png",
     "static/media/GitIcon.png": "/Mahdi-site/static/media/GitIcon.41a53e335132b03e5768.png",
     "static/media/reactIcon.svg": "/Mahdi-site/static/media/reactIcon.f57b6fbfa6088fd494c122d781342874.svg",
     "index.html": "/Mahdi-site/index.html",
     "main.e94969ff.css.map": "/Mahdi-site/static/css/main.e94969ff.css.map",
-    "main.41c65c8e.js.map": "/Mahdi-site/static/js/main.41c65c8e.js.map"
+    "main.076f8c2a.js.map": "/Mahdi-site/static/js/main.076f8c2a.js.map"
   },
   "entrypoints": [
     "static/css/main.e94969ff.css",
-    "static/js/main.41c65c8e.js"
+    "static/js/main.076f8c2a.js"
   ]
 }
