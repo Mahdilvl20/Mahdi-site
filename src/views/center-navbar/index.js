@@ -23,7 +23,6 @@ function CenterNavbar(){
             boxShadow:'10px 14px 1px rgba(0,0,0)',
             transition: 'background-color 0.4s ease, box-shadow 0.4s ease',
             ":hover":{
-              
               backgroundColor:'#626366',
               boxShadow:'0px 0px 0px rgba(0,0,0),0px 0px 0px rgba(0,0,0),0px 0px 300px rgba(0,0,0)'
             }
@@ -41,7 +40,7 @@ function CenterNavbar(){
                 justifyContent:'center',
                 
               }}>
-                <Fab sx={{width:'100px',height:'100px',borderRadius:'50%',backgroundImage:`url(${reactIcon})`,backgroundSize:'cover',backgroundPosition:'center',backgroundRepeat:'no-repeat',overflow:'none'}}>
+                <Fab sx={{width:'100px',height:'100px',borderRadius:'50%',backgroundImage:`url(${reactIcon})`,backgroundSize:'cover',backgroundPosition:'center',backgroundRepeat:'no-repeat',overflow:'none',zIndex:1}}>
                   
                 </Fab>
                 <Box>
@@ -59,7 +58,7 @@ function CenterNavbar(){
                 justifyContent:'center',
                 
               }}>
-                <Fab sx={{width:'100px',height:'100px',borderRadius:'50%',backgroundImage:`url(${GitIcon})`,backgroundSize:'cover',backgroundPosition:'center',backgroundRepeat:'no-repeat',overflow:'none'}}>
+                <Fab sx={{width:'100px',height:'100px',borderRadius:'50%',backgroundImage:`url(${GitIcon})`,backgroundSize:'cover',backgroundPosition:'center',backgroundRepeat:'no-repeat',overflow:'none',zIndex:1}}>
                   
                 </Fab>
               </Box>
@@ -73,7 +72,7 @@ function CenterNavbar(){
                 backgroundColor:'#748CAB',
                 justifyContent:'center',
               }}>
-                <Fab sx={{width:'100px',height:'100px'}}>
+                <Fab sx={{width:'100px',height:'100px',zIndex:1}}>
                   
                 </Fab>
               </Box>
@@ -87,7 +86,7 @@ function CenterNavbar(){
                 backgroundColor:'#748CAB',
                 justifyContent:'center',
               }}>
-                <Fab sx={{width:'100px',height:'100px'}}>
+                <Fab sx={{width:'100px',height:'100px',zIndex:1}}>
                   
                 </Fab>
               </Box>
@@ -101,7 +100,7 @@ function CenterNavbar(){
                 backgroundColor:'#748CAB',
                 justifyContent:'center',
               }}>
-                <Fab sx={{width:'100px',height:'100px'}}>
+                <Fab sx={{width:'100px',height:'100px',zIndex:1}}>
                   
                 </Fab>
               </Box>
